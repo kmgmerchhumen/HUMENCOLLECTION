@@ -2,7 +2,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bk:#0a0a0a;--wh:#f5f5f0;--gd:#c9a84c;--gy:#131313;--mg:#1e1e1e;--lg:#999;--kr:#e74c3c;--rp:#e84393;--hr:#c4887b;--ag:#b8941f;--sg:#6b4c3b}
 html{scroll-behavior:smooth}body{font-family:'Outfit',sans-serif;background:var(--bk);color:var(--wh);overflow-x:hidden}
-.pg{display:none}.pg.on{display:block}
+/* Pages are separate files now - no hide/show needed */
 
 /* === NAV === */
 .ban{background:var(--wh);color:var(--bk);text-align:center;padding:10px 20px;font-size:11px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;z-index:100;position:relative}.ban .ac{color:var(--rp)}
@@ -18,9 +18,9 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:14px 4
 .fi{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.fi.vis{opacity:1;transform:translateY(0)}
 
 /* === HERO === */
-.hero{position:relative;height:100vh;min-height:680px;overflow:hidden}
-.hs{position:absolute;inset:0;opacity:0;transition:opacity 1.2s;display:flex;align-items:center}.hs.on{opacity:1}
-.hc{position:relative;z-index:10;padding:0 40px}
+.hero{position:relative;height:calc(100vh - 100px);min-height:580px;overflow:hidden}
+.hs{position:absolute;inset:0;opacity:0;transition:opacity 1.2s;display:flex;align-items:center;padding-top:20px}.hs.on{opacity:1}
+.hc{position:relative;z-index:10;padding:40px 40px 0}
 .hl{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gd);margin-bottom:14px;font-weight:600}
 .hsub{font-size:clamp(13px,1.6vw,17px);color:rgba(245,245,240,.5);margin-bottom:32px;font-weight:300;line-height:1.7;max-width:440px}
 .hb{display:inline-block;padding:14px 44px;border:1px solid rgba(245,245,240,.5);color:var(--wh);text-decoration:none;font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:600;transition:all .4s;position:relative;overflow:hidden}
