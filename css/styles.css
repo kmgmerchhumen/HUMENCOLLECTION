@@ -5,9 +5,9 @@ html{scroll-behavior:smooth}body{font-family:'Outfit',sans-serif;background:var(
 /* Pages are separate files now - no hide/show needed */
 
 /* === NAV === */
-.ban{background:var(--wh);color:var(--bk);text-align:center;padding:10px 20px;font-size:11px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;z-index:100;position:relative}.ban .ac{color:var(--rp)}
-nav{display:flex;justify-content:space-between;align-items:center;padding:14px 40px;background:rgba(10,10,10,.92);backdrop-filter:blur(16px);position:sticky;top:0;width:100%;z-index:50;border-bottom:1px solid rgba(245,245,240,.04)}
-.nl{cursor:pointer}.nl img{height:30px;width:auto}
+.ban{background:var(--wh);color:var(--bk);text-align:center;padding:6px 20px;font-size:10px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;z-index:100;position:relative}.ban .ac{color:var(--rp)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:10px 40px;background:rgba(10,10,10,.92);backdrop-filter:blur(16px);position:sticky;top:0;width:100%;z-index:50;border-bottom:1px solid rgba(245,245,240,.04);max-height:56px}
+.nl{cursor:pointer}.nl img{height:28px;max-height:28px;width:auto}
 .nk{display:flex;gap:28px;list-style:none;align-items:center}.nk a{color:var(--wh);text-decoration:none;font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;transition:opacity .3s}.nk a:hover{opacity:.7}
 .nr{display:flex;gap:20px;align-items:center}.ni{color:var(--wh);text-decoration:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;transition:opacity .3s}.ni:hover{opacity:.7}
 
