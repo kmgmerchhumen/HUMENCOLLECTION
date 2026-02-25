@@ -19,8 +19,8 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:10px 4
 
 /* === HERO === */
 .hero{position:relative;height:calc(100vh - 100px);min-height:580px;overflow:hidden}
-.hs{position:absolute;inset:0;opacity:0;transition:opacity 1.2s;display:flex;align-items:center;padding:30px 0}.hs.on{opacity:1}
-.hc{position:relative;z-index:10;padding:40px 40px 0}
+.hs{position:absolute;inset:0;opacity:0;transition:opacity 1.2s;display:flex;align-items:center;justify-content:center;padding:0}.hs.on{opacity:1}
+.hc{position:relative;z-index:10;padding:0 40px}
 .hl{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gd);margin-bottom:14px;font-weight:600}
 .hsub{font-size:clamp(13px,1.6vw,17px);color:rgba(245,245,240,.5);margin-bottom:32px;font-weight:300;line-height:1.7;max-width:440px}
 .hb{display:inline-block;padding:14px 44px;border:1px solid rgba(245,245,240,.5);color:var(--wh);text-decoration:none;font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:600;transition:all .4s;position:relative;overflow:hidden}
@@ -31,7 +31,7 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:10px 4
 .hb.bg{border-color:var(--ag)}.hb.bg::before{background:var(--ag)}.hb.bg:hover{color:var(--bk)}
 .hb.bsg{border-color:var(--sg)}.hb.bsg::before{background:var(--sg)}.hb.bsg:hover{color:#fff}
 
-.s-run{background:linear-gradient(135deg,#0a0408,#1a0a12 50%,#0a0a0a);justify-content:space-between;padding:0 8%}
+.s-run{background:linear-gradient(135deg,#0a0408,#1a0a12 50%,#0a0a0a);justify-content:center;padding:0 8%;gap:4%}
 .s-run .hc{width:48%;text-align:left}
 .s-run .ht{font-family:'Permanent Marker',cursive;font-size:clamp(60px,12vw,120px);color:var(--rp);line-height:.85;text-shadow:0 0 80px rgba(232,67,147,.25)}
 .ha{width:44%;display:flex;align-items:center;justify-content:center;position:relative;z-index:5}
@@ -225,7 +225,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
   .fsa{width:90px!important;height:90px!important}
   
   /* Hero carousel */
-  .hc{min-height:70vh!important}
+  .hc{min-height:auto!important}
   
   /* KMG Family section */
   [style*="grid-template-columns:repeat(auto-fit"]{grid-template-columns:1fr!important}
@@ -302,7 +302,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 
 /* Tablet */
 @media(max-width:1024px){
-  .hc{min-height:70vh}
+  .hc{min-height:auto}
   .hs{padding:0 40px}
   .cb{min-height:420px}
   .hg{grid-template-columns:repeat(2,1fr)}
@@ -330,7 +330,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
   .nk.open .ndd li a{font-size:12px;padding:8px 12px;border-bottom:none}
   
   /* Hero Carousel */
-  .hc{min-height:65vh!important}
+  .hc{min-height:auto!important}
   .hs{padding:0 20px!important;flex-direction:column!important}
   .ht{font-size:32px!important;line-height:1.1!important}
   .hp{font-size:13px!important}
@@ -415,7 +415,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 
 /* Small phones */
 @media(max-width:480px){
-  .hc{min-height:55vh!important}
+  .hc{min-height:auto!important}
   .ht{font-size:26px!important}
   .hg,.tg,.cpg{grid-template-columns:1fr!important}
   .sg{grid-template-columns:1fr!important}
