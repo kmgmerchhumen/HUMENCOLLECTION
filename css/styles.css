@@ -59,7 +59,7 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:10px 4
 
 /* === FOUNDER === */
 .fs{display:flex;align-items:center;padding:48px 60px;background:var(--gy);gap:36px;border-bottom:1px solid rgba(245,245,240,.04)}
-.fp{width:120px;height:120px;border-radius:50%;border:2px solid var(--gd);flex-shrink:0;overflow:hidden}.fp img{width:100%;height:100%;object-fit:cover}
+.fp{width:160px;height:160px;border-radius:50%;border:2px solid var(--gd);flex-shrink:0;overflow:hidden}.fp img{width:100%;height:100%;object-fit:cover}
 .ft{font-size:14px;color:rgba(245,245,240,.55);font-weight:300;line-height:1.6;flex:1}.ft strong{color:var(--wh);font-weight:600}
 .fk{color:var(--gd);text-decoration:none;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600;flex-shrink:0}
 
