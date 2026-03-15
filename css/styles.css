@@ -277,7 +277,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 .ndd{display:none;position:absolute;top:100%;left:0;background:rgba(5,5,4,.97);border:1px solid rgba(245,245,240,.08);padding:8px 0;min-width:180px;z-index:1000;backdrop-filter:blur(10px)}
 .nd:hover .ndd{display:block}
 .ndd li{list-style:none}
-.ndd li a{display:block;padding:8px 20px;font-size:11px;color:var(--lg);text-decoration:none;letter-spacing:1.5px;text-transform:uppercase;transition:all .3s;white-space:nowrap}
+.ndd li a{display:block;padding:8px 20px;font-size:11px;color:var(--wh);text-decoration:none;letter-spacing:1.5px;text-transform:uppercase;transition:all .3s;white-space:nowrap}
 .ndd li a:hover{color:var(--gd);background:rgba(245,245,240,.03)}
 
   .nk.open .nd .ndd{display:block!important;position:static;border:none;background:rgba(245,245,240,.03);margin-top:4px}
