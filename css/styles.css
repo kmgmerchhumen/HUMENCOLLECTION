@@ -295,6 +295,11 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
   .cb{min-height:420px}
   .hg{grid-template-columns:repeat(2,1fr)}
 }
+/* Desktop navigation */
+@media(min-width:769px){
+  .nk{display:flex!important;gap:30px;align-items:center}
+  .nm{display:none!important}
+}
 
 /* Mobile */
 @media(max-width:768px){
