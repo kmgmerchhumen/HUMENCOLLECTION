@@ -248,7 +248,7 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 /* Mobile nav toggle */
 
   .nk.open{display:flex!important;flex-direction:column;position:absolute;top:60px;left:0;right:0;background:rgba(5,5,4,.98);padding:20px;z-index:999;gap:16px;border-bottom:1px solid rgba(245,245,240,.1)}
-  .nk.open li a{font-size:14px;padding:8px 0;display:block}
+ .nk.open li a{font-size:14px;padding:8px 0;display:block;color:var(--wh)}
 }
 
 }
